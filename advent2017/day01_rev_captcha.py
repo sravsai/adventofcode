@@ -2,9 +2,6 @@
     Reverse Captcha: https://adventofcode.com/2017/day/1
 """
 
-from locale import currency
-
-
 def sum_matching_digits(s: str) -> int:
     total = 0
     for curr_val, next_val in zip(s, s[1:]):
